@@ -234,19 +234,3 @@ const massTotal = characters.reduce((mass, total) => {
 }, 0);
 console.log(massTotal);
 
-/* 
-
-Stretch: If you haven't already, convert your array method callbacks into arrow functions.
-
-*/
-
-const populationTotal = zooAnimals.reduce((animal, totalPopulation) => {
-  return animal + totalPopulation.population;
-}, 0);
-console.log(populationTotal);
-
-/*
-
-Stretch: If you haven't already, convert your array methods callbacks into arrow functions.
-
-*/
